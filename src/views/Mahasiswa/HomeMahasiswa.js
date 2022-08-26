@@ -53,10 +53,10 @@ class HomeMahasiswa extends Component {
     actionFormatter = (cell, row) => {
         return (
             <div className='d-flex gap-3'>
-                <Link to={`/detail/${cell}`}>
+                <Link to={`/SIMPLE-REACT-REDUX-FORM/detail/${cell}`}>
                     <Button color='info'>Detail</Button>
                 </Link>
-                <Link to={`/edit/${cell}`}>
+                <Link to={`/SIMPLE-REACT-REDUX-FORM/edit/${cell}`}>
                     <Button color='warning'>Update</Button>
                 </Link>
                 <Button color='danger' onClick={() => this.deleteData(cell)}>Delete</Button>
@@ -68,7 +68,7 @@ class HomeMahasiswa extends Component {
         const { getListMahasiswaData, getListMahasiswaLoading, getListMahasiswaError } = this.props;
         return (
             <div>
-                <Link to={'/create'}>
+                <Link to={'/SIMPLE-REACT-REDUX-FORM/create'}>
                     <Button color='primary'>Create Mahasiswa</Button>
                 </Link>
                 {getListMahasiswaLoading ?

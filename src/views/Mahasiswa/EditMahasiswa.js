@@ -42,7 +42,7 @@ class EditMahasiswa extends Component {
         const { detailListMahasiswaLoading, detailListMahasiswaError } = this.props;
         return (
             <div>
-                <Link to={'/'}>
+                <Link to={'/SIMPLE-REACT-REDUX-FORM'}>
                     <Button color='primary' className='mb-3'>Back</Button>
                 </Link>
                 <h3 className='mb-5'>Edit MAHASISWA</h3>

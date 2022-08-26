@@ -16,9 +16,9 @@ class App extends Component {
           <BrowserRouter>
             <Switch>
               <Route path='/SIMPLE-REACT-REDUX-FORM' component={HomeMahasiswa} exact />
-              <Route path='/SIMPLE-REACT-REDUX-FORM/create' component={CreateMahasiswa} exact />
-              <Route path='/SIMPLE-REACT-REDUX-FORM/detail/:id' component={DetailMahasiswa} exact />
-              <Route path='/SIMPLE-REACT-REDUX-FORM/edit/:id' component={EditMahasiswa} exact />
+              <Route path='/SIMPLE-REACT-REDUX-FORM/create' component={CreateMahasiswa} />
+              <Route path='/SIMPLE-REACT-REDUX-FORM/detail/:id' component={DetailMahasiswa} />
+              <Route path='/SIMPLE-REACT-REDUX-FORM/edit/:id' component={EditMahasiswa} />
             </Switch>
           </BrowserRouter>
         </div>
