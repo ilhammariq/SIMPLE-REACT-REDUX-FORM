@@ -32,7 +32,7 @@ class CreateMahasiswa extends Component {
     render() {
         return (
             <div>
-                <Link to={'/'}>
+                <Link to={'/SIMPLE-REACT-REDUX-FORM'}>
                     <Button color='primary' className='mb-3'>Back</Button>
                 </Link>
                 <h3 className='mb-5'>CREATE MAHASISWA</h3>
